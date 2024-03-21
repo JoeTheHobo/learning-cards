@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elements Merge</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="flashcard" id="inputFlashcard">
+        <div id="inputFront">
+            <input placeholder="Hello" class='flashcardInput' id='inputFront2' type="text">
+        </div>
+        <div id="inputBack">
+            <input placeholder="Hola" class='flashcardInput' id='inputBack2' type="text">
+        </div>
+    </div>
+
+    <div id="backgroundOverlay"></div>
+    <div id="addNewCardIcon" onclick="addNewCard()">+</div>
+    
+
+    <div class="flashcard" id="flashcard">
+        <div class='text' id="front">Testing</div>
+        <div class='text' id="back"></div>
+    </div>
+
+    <div id="discardPile"></div>
+
+    <script src='libraries/library_simple_v14.js'></script>
+    <!--Instert All Plugins Below This Line-->
+    <!--Example: <script src='plugins/plugin_ccm_v2.js'></script>   -->
+
+    <!--And Above This Line-->
+    <!--Instert All Mods Below This Line-->
+    <!--Example: <script src='mods/mod_ccm_v2.js'></script>   -->
+
+    <!--And Above This Line-->
+    <script src='main.js'></script>
+
+    
+</body>
+</html>
